@@ -13,7 +13,6 @@
  * Copyright: CECAR
  */
 
-
 package edu.cecar.componentes.basesDeDatos;
 
 import java.sql.Connection;
@@ -37,7 +36,7 @@ public class ConectarMySQL {
 
 			
 			// Se crea un URL hacia la maquina y la base de datos
-			String url= "jdbc:mysql://" + servidorBD + "/" + nombreBD + "?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC"; 
+			String url= "jdbc:mysql://" + servidorBD + "/3308" + nombreBD + "?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC"; 
 
 			//se crea la conexion a la base de datos
 			connection=DriverManager.getConnection(url,usuario,password);
